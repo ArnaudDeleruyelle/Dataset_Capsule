@@ -21,7 +21,7 @@ If you use this dataset for your own work, please consider citing it with [this 
 ```bibtex
 @misc{Caps2021,
     title =   {{Capsule: a dataset for the segmentation of a transparent and deformable capsule.}},
-    author =  {Anne-Virginie Salsac, Arnaud Deleruyelle, Cristian Versari, John Klein},
+    author =  {Anne-Virginie Salsac and Arnaud Deleruyelle and Cristian Versari and John Klein},
     year =    {2021},
     url =     {https://github.com/ArnaudDeleruyelle/Dataset_Capsule},
     howpublished = {Online at: \url{https://github.com/ArnaudDeleruyelle/Dataset_Capsule}},
