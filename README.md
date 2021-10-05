@@ -27,5 +27,5 @@ If you use this package for your own work, please consider citing it with [this 
 ```
 
 
-## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/SMPyBandits/SMPyBandits.svg)](https://github.com/SMPyBandits/SMPyBandits/blob/master/LICENSE)
-[MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
+## :scroll: License 
+[MIT Licensed](https://github.com/ArnaudDeleruyelle/Dataset_Capsule/blob/main/LICENCE) (file [LICENSE](LICENSE)).
