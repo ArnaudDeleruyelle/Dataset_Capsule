@@ -1,9 +1,11 @@
 # Dataset_Capsule
 
-This GitHub repository contains a dataset visualizing the crossing of a capsule through a pipe.
-It is composed of 353 differents images of 768x768 pixels, that are stored in TIFF format.
+This GitHub repository contains a dataset visualizing the path of a capsule through a Y-shaped micro-pipe.
+It is composed of 353 differents grayscale images of 768x768 pixels, that are stored in TIFF format. 
+The capsule is transparent, consequently a trained model need to learn to detect contour patterns and then filling the indise of the detected contour. The capsule is deformable so the model cannot learn a single shape. 
 
-The dataset is provided by ??
+The inputs of the dataset were provided by ??
+The targets were provided by a joint work form the Biocomputing and SIGMA teams of CRIStAL. The delineation was carefully obtained using Bezier curves.
 
 Some examples below:
 
@@ -17,7 +19,7 @@ If you use this package for your own work, please consider citing it with [this 
 
 
 ```bibtex
-@misc{SMPyBandits,
+@misc{Caps2021,
     title =   {{Capsule: a dataset for the segmentation of a transparent and deformable capsule.}},
     author =  {Arnaud Deleruyelle, Cristian Versari, John Klein},
     year =    {2021},
