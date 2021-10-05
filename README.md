@@ -27,5 +27,5 @@ If you use this package for your own work, please consider citing it with [this 
 ```
 
 
-## :scroll: License 
+## License 
 [MIT Licensed](https://github.com/ArnaudDeleruyelle/Dataset_Capsule/blob/main/LICENCE) (file [LICENSE](LICENSE)).
