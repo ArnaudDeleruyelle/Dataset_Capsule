@@ -1,6 +1,6 @@
 # Dataset_Capsule
 
-This GitHub repository contains an image dataset extracted from a video of a bio-artificial capsule (liquid droplet protected by a thin elastic memebrane) flowing through a Y-shaped micro-channel.
+This GitHub repository contains an image dataset extracted from a video of a bio-artificial capsule (liquid droplet protected by a thin elastic membrane) flowing through a Y-shaped micro-channel.
 It is composed of 353 grayscale images of 768x768 pixels, that are stored in TIFF format. 
 The capsule being transparent, a trained model needs to learn to detect its contour and then fill the inside of the detected contour. The model cannot learn a single shape, since the capsule is deformable and changes shape as it flows down the bifurcated channel. 
 
