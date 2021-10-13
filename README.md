@@ -1,11 +1,11 @@
 # Dataset_Capsule
 
-This GitHub repository contains a image dataset obtained from a video showing the path of a bio-artificial capsule through a Y-shaped micro-pipe.
-It is composed of 353 different grayscale images of 768x768 pixels, that are stored in TIFF format. 
-The capsule is transparent, consequently a trained model need to learn to detect contour patterns and then filling the inside of the detected contour. The capsule is deformable so the model cannot learn a single shape. 
+This GitHub repository contains an image dataset extracted from a video of a bio-artificial capsule (liquid droplet protected by a thin elastic memebrane) flowing through a Y-shaped micro-channel.
+It is composed of 353 grayscale images of 768x768 pixels, that are stored in TIFF format. 
+The capsule being transparent, a trained model needs to learn to detect its contour and then fill the inside of the detected contour. The model cannot learn a single shape, since the capsule is deformable and changes shape as it flows down the bifurcated channel. 
 
-The raw inputs of the dataset were provided by Benjamin Sévénié and Anne-Virginie Salsac at [Biomechanics and Bioengineering Laboratory (BMBI, UMR CNRS 7338), University of Technology of Compiègne](https://bmbi.utc.fr), and described in Benjamin Sévénié's [PhD thesis](http://www.theses.fr/2016COMP2278).
-The targets were provided by a joint work form the [Biocomputing](https://www.cristal.univ-lille.fr/equipes/biocomputing/) and [SIGMA](https://www.cristal.univ-lille.fr/equipes/sigma/) teams of [CRIStAL](https://www.cristal.univ-lille.fr). The delineation was carefully obtained using Bezier curves. Input images were also slightly rotated to that the background is not entirely uniform from a training example to another one. 
+The raw inputs of the dataset were provided by Anne-Virginie Salsac from [Biomechanics and Bioengineering Laboratory (BMBI, UMR CNRS 7338), University of Technology of Compiègne](https://bmbi.utc.fr). They were acquired during Benjamin Sévénié's [PhD thesis](http://www.theses.fr/2016COMP2278).
+The targets were provided by a joint work between the [Biocomputing](https://www.cristal.univ-lille.fr/equipes/biocomputing/) and [SIGMA](https://www.cristal.univ-lille.fr/equipes/sigma/) teams of [CRIStAL](https://www.cristal.univ-lille.fr). The delineation was carefully obtained using Bezier curves. Input images were also slightly rotated so that the background is not entirely uniform from a training example to another one. 
 
 Three example input/target pairs are shown below:
 
